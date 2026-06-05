@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMatch | Modern Movie Recommender</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>CineMatch</h1>
+            <p class="subtitle">Discover your next favorite story based on what you love.</p>
+
+
+        </header>
+
+        <!-- Interest Selection Phase -->
+        <section class="interest-section" id="interestSection">
+            <h2 class="interest-prompt">What are you in the mood for today?</h2>
+            <div class="genre-tags" id="genreContainer">
+                <!-- Genres will be injected here via JS -->
+            </div>
+        </section>
+
+        <!-- Recommendations Phase -->
+        <section class="recommendations-section" id="recommendationsSection">
+            <div class="recommendations-header">
+                <h2>Top Picks For You</h2>
+                <button id="resetBtn" class="genre-tag">Change Mood</button>
+            </div>
+            <div class="movies-grid" id="moviesGrid">
+                <!-- Movie cards will be injected here via JS -->
+            </div>
+
+            <div style="text-align: center; margin-top: 2rem;">
+                <button id="loadMoreBtn" class="genre-tag active" style="display: none;">Load More</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Data and Scripts -->
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
