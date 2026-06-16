@@ -6,6 +6,16 @@ Additionally, the project includes a robust **Admin Dashboard** allowing custom 
 
 ---
 
+## 📸 Screenshots
+
+### User Homepage
+![User Homepage](assets/homepage.png)
+
+### Admin Dashboard
+![Admin Dashboard](assets/admin.png)
+
+---
+
 ## ✨ Features
 
 - 🎭 **Dynamic Mood/Genre Filtering**: Toggle multiple genres to find perfect matches based on what you are in the mood for.
